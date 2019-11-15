@@ -1,7 +1,7 @@
-//Author: Kirk Fay
-//This program aims to count the characters
-//of a given string and outputs the results
-//include statements
+/*
+* Kirk Fay
+*
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +12,6 @@
 
 
 //Declare the main
-//int argc, char const *argv[]
 int main() {
         int whiteChar = 0;
         int digits = 0;
@@ -22,7 +21,7 @@ int main() {
         char userAltStr[MAXCHAR] = {0};
         int i = 0, c, dummy;
 
-        printf("+-+-+-+-+-+_charCount.c_+-+-+-+-+-+\n");
+        printf("+-+-+-+-+-+_CharCount.c_+-+-+-+-+-+\n");
         printf("Enter any input from the keyboard. To end input, type z\n");
 
         printf("Please enter an array of characters: ");
